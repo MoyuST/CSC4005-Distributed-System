@@ -1,0 +1,4 @@
+/home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/rebuild_cache.dir
+/home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/edit_cache.dir
+/home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/csc4005_imgui.dir
+/home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/core.dir

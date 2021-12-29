@@ -1,0 +1,1 @@
+/usr/local/bin/clang++ -g -rdynamic CMakeFiles/csc4005_imgui.dir/src/graphic.cpp.o CMakeFiles/csc4005_imgui.dir/src/main.cpp.o -o csc4005_imgui  libcore.a /usr/lib64/libfreetype.so /usr/lib64/libSDL2.so /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so -ldl -lpthread -lmpi 

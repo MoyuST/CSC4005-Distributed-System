@@ -1,0 +1,1 @@
+Notice that all the recordings are initialized with 20 bodies, however, in submitted codes, the size of bodies has been set to 200.

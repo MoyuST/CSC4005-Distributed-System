@@ -1,0 +1,383 @@
+The system is: Linux - 3.10.0-1160.42.2.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/llvm/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/3.21.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/llvm/bin/clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/3.21.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2486c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2486c.dir/build.make CMakeFiles/cmTC_2486c.dir/build
+gmake[1]: Entering directory `/home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2486c.dir/CMakeCCompilerABI.c.o
+/opt/llvm/bin/clang   -v -MD -MT CMakeFiles/cmTC_2486c.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_2486c.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_2486c.dir/CMakeCCompilerABI.c.o -c /opt/cmake/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+clang version 12.0.1 (/build/llvm-project/clang fed41342a82f5a3a9201819a82bf7a48313e296b)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /opt/llvm/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.2
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5
+Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+Found CUDA installation: /usr/local/cuda, version 11.0
+ (in-process)
+ "/opt/llvm/bin/clang-12" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /opt/llvm/lib/clang/12.0.1 -dependency-file CMakeFiles/cmTC_2486c.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_2486c.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /opt/llvm/lib/clang/12.0.1/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_2486c.dir/CMakeCCompilerABI.c.o -x c /opt/cmake/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /opt/llvm/lib/clang/12.0.1/include
+ /usr/include
+End of search list.
+Linking C executable cmTC_2486c
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2486c.dir/link.txt --verbose=1
+/opt/llvm/bin/clang  -v -rdynamic CMakeFiles/cmTC_2486c.dir/CMakeCCompilerABI.c.o -o cmTC_2486c 
+clang version 12.0.1 (/build/llvm-project/clang fed41342a82f5a3a9201819a82bf7a48313e296b)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /opt/llvm/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.2
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5
+Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+Found CUDA installation: /usr/local/cuda, version 11.0
+ "/opt/llvm/bin/ld.lld" -export-dynamic --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2486c /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtbegin-x86_64.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. -L/opt/llvm/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_2486c.dir/CMakeCCompilerABI.c.o /opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -l:libunwind.so --no-as-needed -lc /opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -l:libunwind.so --no-as-needed /opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtend-x86_64.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/include]
+    add: [/opt/llvm/lib/clang/12.0.1/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/opt/llvm/lib/clang/12.0.1/include] ==> [/opt/llvm/lib/clang/12.0.1/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/include;/opt/llvm/lib/clang/12.0.1/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2486c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2486c.dir/build.make CMakeFiles/cmTC_2486c.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_2486c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/llvm/bin/clang   -v -MD -MT CMakeFiles/cmTC_2486c.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_2486c.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_2486c.dir/CMakeCCompilerABI.c.o -c /opt/cmake/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang version 12.0.1 (/build/llvm-project/clang fed41342a82f5a3a9201819a82bf7a48313e296b)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /opt/llvm/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [Found CUDA installation: /usr/local/cuda  version 11.0]
+  ignore line: [ (in-process)]
+  ignore line: [ "/opt/llvm/bin/clang-12" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /opt/llvm/lib/clang/12.0.1 -dependency-file CMakeFiles/cmTC_2486c.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_2486c.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /opt/llvm/lib/clang/12.0.1/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_2486c.dir/CMakeCCompilerABI.c.o -x c /opt/cmake/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /opt/llvm/lib/clang/12.0.1/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_2486c]
+  ignore line: [/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2486c.dir/link.txt --verbose=1]
+  ignore line: [/opt/llvm/bin/clang  -v -rdynamic CMakeFiles/cmTC_2486c.dir/CMakeCCompilerABI.c.o -o cmTC_2486c ]
+  ignore line: [clang version 12.0.1 (/build/llvm-project/clang fed41342a82f5a3a9201819a82bf7a48313e296b)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /opt/llvm/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [Found CUDA installation: /usr/local/cuda  version 11.0]
+  link line: [ "/opt/llvm/bin/ld.lld" -export-dynamic --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2486c /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtbegin-x86_64.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. -L/opt/llvm/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_2486c.dir/CMakeCCompilerABI.c.o /opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -l:libunwind.so --no-as-needed -lc /opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -l:libunwind.so --no-as-needed /opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtend-x86_64.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/opt/llvm/bin/ld.lld] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2486c] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o]
+    arg [/opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtbegin-x86_64.o] ==> obj [/opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtbegin-x86_64.o]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [-L/opt/llvm/bin/../lib] ==> dir [/opt/llvm/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_2486c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [/opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a] ==> lib [/opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a]
+    arg [--as-needed] ==> ignore
+    arg [-l:libunwind.so] ==> lib [-l:libunwind.so]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [/opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a] ==> lib [/opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a]
+    arg [--as-needed] ==> ignore
+    arg [-l:libunwind.so] ==> lib [-l:libunwind.so]
+    arg [--no-as-needed] ==> ignore
+    arg [/opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtend-x86_64.o] ==> obj [/opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtend-x86_64.o]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+  remove lib [/opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a]
+  remove lib [/opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a]
+  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  collapse library dir [/opt/llvm/bin/../lib] ==> [/opt/llvm/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [-l:libunwind.so;c;-l:libunwind.so]
+  implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtbegin-x86_64.o;/opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtend-x86_64.o;/usr/lib64/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib;/opt/llvm/lib;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_150e1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_150e1.dir/build.make CMakeFiles/cmTC_150e1.dir/build
+gmake[1]: Entering directory `/home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_150e1.dir/CMakeCXXCompilerABI.cpp.o
+/opt/llvm/bin/clang++   -v -MD -MT CMakeFiles/cmTC_150e1.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_150e1.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_150e1.dir/CMakeCXXCompilerABI.cpp.o -c /opt/cmake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+clang version 12.0.1 (/build/llvm-project/clang fed41342a82f5a3a9201819a82bf7a48313e296b)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /opt/llvm/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.2
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5
+Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+Found CUDA installation: /usr/local/cuda, version 11.0
+ (in-process)
+ "/opt/llvm/bin/clang-12" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /opt/llvm/lib/clang/12.0.1 -dependency-file CMakeFiles/cmTC_150e1.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_150e1.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /opt/llvm/bin/../include/c++/v1 -internal-isystem /usr/local/include -internal-isystem /opt/llvm/lib/clang/12.0.1/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -o CMakeFiles/cmTC_150e1.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/cmake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/llvm/bin/../include/c++/v1
+ /usr/local/include
+ /opt/llvm/lib/clang/12.0.1/include
+ /usr/include
+End of search list.
+Linking CXX executable cmTC_150e1
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_150e1.dir/link.txt --verbose=1
+/opt/llvm/bin/clang++  -v -rdynamic CMakeFiles/cmTC_150e1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_150e1 
+clang version 12.0.1 (/build/llvm-project/clang fed41342a82f5a3a9201819a82bf7a48313e296b)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /opt/llvm/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.2
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5
+Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+Found CUDA installation: /usr/local/cuda, version 11.0
+ "/opt/llvm/bin/ld.lld" -export-dynamic --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_150e1 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtbegin-x86_64.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. -L/opt/llvm/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_150e1.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm /opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a -l:libunwind.so -lc /opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a -l:libunwind.so /opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtend-x86_64.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/llvm/bin/../include/c++/v1]
+    add: [/usr/local/include]
+    add: [/opt/llvm/lib/clang/12.0.1/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/opt/llvm/bin/../include/c++/v1] ==> [/opt/llvm/include/c++/v1]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/opt/llvm/lib/clang/12.0.1/include] ==> [/opt/llvm/lib/clang/12.0.1/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/opt/llvm/include/c++/v1;/usr/local/include;/opt/llvm/lib/clang/12.0.1/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_150e1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_150e1.dir/build.make CMakeFiles/cmTC_150e1.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_150e1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/llvm/bin/clang++   -v -MD -MT CMakeFiles/cmTC_150e1.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_150e1.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_150e1.dir/CMakeCXXCompilerABI.cpp.o -c /opt/cmake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang version 12.0.1 (/build/llvm-project/clang fed41342a82f5a3a9201819a82bf7a48313e296b)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /opt/llvm/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [Found CUDA installation: /usr/local/cuda  version 11.0]
+  ignore line: [ (in-process)]
+  ignore line: [ "/opt/llvm/bin/clang-12" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /opt/llvm/lib/clang/12.0.1 -dependency-file CMakeFiles/cmTC_150e1.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_150e1.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /opt/llvm/bin/../include/c++/v1 -internal-isystem /usr/local/include -internal-isystem /opt/llvm/lib/clang/12.0.1/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -o CMakeFiles/cmTC_150e1.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/cmake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/llvm/bin/../include/c++/v1]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /opt/llvm/lib/clang/12.0.1/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_150e1]
+  ignore line: [/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_150e1.dir/link.txt --verbose=1]
+  ignore line: [/opt/llvm/bin/clang++  -v -rdynamic CMakeFiles/cmTC_150e1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_150e1 ]
+  ignore line: [clang version 12.0.1 (/build/llvm-project/clang fed41342a82f5a3a9201819a82bf7a48313e296b)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /opt/llvm/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [Found CUDA installation: /usr/local/cuda  version 11.0]
+  link line: [ "/opt/llvm/bin/ld.lld" -export-dynamic --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_150e1 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtbegin-x86_64.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. -L/opt/llvm/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_150e1.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm /opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a -l:libunwind.so -lc /opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a -l:libunwind.so /opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtend-x86_64.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/opt/llvm/bin/ld.lld] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_150e1] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o]
+    arg [/opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtbegin-x86_64.o] ==> obj [/opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtbegin-x86_64.o]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [-L/opt/llvm/bin/../lib] ==> dir [/opt/llvm/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_150e1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lm] ==> lib [m]
+    arg [/opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a] ==> lib [/opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a]
+    arg [-l:libunwind.so] ==> lib [-l:libunwind.so]
+    arg [-lc] ==> lib [c]
+    arg [/opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a] ==> lib [/opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a]
+    arg [-l:libunwind.so] ==> lib [-l:libunwind.so]
+    arg [/opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtend-x86_64.o] ==> obj [/opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtend-x86_64.o]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+  remove lib [/opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a]
+  remove lib [/opt/llvm/lib/clang/12.0.1/lib/linux/libclang_rt.builtins-x86_64.a]
+  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  collapse library dir [/opt/llvm/bin/../lib] ==> [/opt/llvm/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [c++;m;-l:libunwind.so;c;-l:libunwind.so]
+  implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtbegin-x86_64.o;/opt/llvm/lib/clang/12.0.1/lib/linux/clang_rt.crtend-x86_64.o;/usr/lib64/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib;/opt/llvm/lib;/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_29421/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_29421.dir/build.make CMakeFiles/cmTC_29421.dir/build
+gmake[1]: Entering directory `/home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29421.dir/CheckIncludeFile.c.o
+/opt/llvm/bin/clang    -MD -MT CMakeFiles/cmTC_29421.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_29421.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_29421.dir/CheckIncludeFile.c.o -c /home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_29421
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29421.dir/link.txt --verbose=1
+/opt/llvm/bin/clang -rdynamic CMakeFiles/cmTC_29421.dir/CheckIncludeFile.c.o -o cmTC_29421 
+gmake[1]: Leaving directory `/home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eb581/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eb581.dir/build.make CMakeFiles/cmTC_eb581.dir/build
+gmake[1]: Entering directory `/home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb581.dir/CheckFunctionExists.c.o
+/opt/llvm/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create -MD -MT CMakeFiles/cmTC_eb581.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_eb581.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_eb581.dir/CheckFunctionExists.c.o -c /opt/cmake/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eb581
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb581.dir/link.txt --verbose=1
+/opt/llvm/bin/clang  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_eb581.dir/CheckFunctionExists.c.o -o cmTC_eb581  -lpthread 
+gmake[1]: Leaving directory `/home/csc4005/Downloads/Pthread_benchmark/build/CMakeFiles/CMakeTmp'
+
+
+

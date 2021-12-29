@@ -1,0 +1,4 @@
+/pvfsmnt/118010224/hw2/Pthread/build/CMakeFiles/rebuild_cache.dir
+/pvfsmnt/118010224/hw2/Pthread/build/CMakeFiles/edit_cache.dir
+/pvfsmnt/118010224/hw2/Pthread/build/CMakeFiles/csc4005_imgui.dir
+/pvfsmnt/118010224/hw2/Pthread/build/CMakeFiles/core.dir

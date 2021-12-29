@@ -1,0 +1,74 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /pvfsmnt/118010224/hw2/Pthread_benchmark/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_91ae9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_91ae9.dir/build.make CMakeFiles/cmTC_91ae9.dir/build
+gmake[1]: Entering directory `/pvfsmnt/118010224/hw2/Pthread_benchmark/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91ae9.dir/src.c.o
+/usr/local/bin/clang -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_91ae9.dir/src.c.o -MF CMakeFiles/cmTC_91ae9.dir/src.c.o.d -o CMakeFiles/cmTC_91ae9.dir/src.c.o -c /pvfsmnt/118010224/hw2/Pthread_benchmark/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_91ae9
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91ae9.dir/link.txt --verbose=1
+/usr/local/bin/clang -rdynamic CMakeFiles/cmTC_91ae9.dir/src.c.o -o cmTC_91ae9 
+ld.lld: error: undefined symbol: pthread_create
+>>> referenced by src.c
+>>>               CMakeFiles/cmTC_91ae9.dir/src.c.o:(main)
+
+ld.lld: error: undefined symbol: pthread_detach
+>>> referenced by src.c
+>>>               CMakeFiles/cmTC_91ae9.dir/src.c.o:(main)
+
+ld.lld: error: undefined symbol: pthread_cancel
+>>> referenced by src.c
+>>>               CMakeFiles/cmTC_91ae9.dir/src.c.o:(main)
+
+ld.lld: error: undefined symbol: pthread_join
+>>> referenced by src.c
+>>>               CMakeFiles/cmTC_91ae9.dir/src.c.o:(main)
+
+ld.lld: error: undefined symbol: pthread_atfork
+>>> referenced by src.c
+>>>               CMakeFiles/cmTC_91ae9.dir/src.c.o:(main)
+clang-12: error: linker command failed with exit code 1 (use -v to see invocation)
+gmake[1]: *** [cmTC_91ae9] Error 1
+gmake[1]: Leaving directory `/pvfsmnt/118010224/hw2/Pthread_benchmark/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_91ae9/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /pvfsmnt/118010224/hw2/Pthread_benchmark/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c749b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c749b.dir/build.make CMakeFiles/cmTC_c749b.dir/build
+gmake[1]: Entering directory `/pvfsmnt/118010224/hw2/Pthread_benchmark/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c749b.dir/CheckFunctionExists.c.o
+/usr/local/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create -MD -MT CMakeFiles/cmTC_c749b.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_c749b.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_c749b.dir/CheckFunctionExists.c.o -c /opt/cmake/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c749b
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c749b.dir/link.txt --verbose=1
+/usr/local/bin/clang  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_c749b.dir/CheckFunctionExists.c.o -o cmTC_c749b  -lpthreads 
+ld.lld: error: unable to find library -lpthreads
+clang-12: error: linker command failed with exit code 1 (use -v to see invocation)
+gmake[1]: *** [cmTC_c749b] Error 1
+gmake[1]: Leaving directory `/pvfsmnt/118010224/hw2/Pthread_benchmark/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_c749b/fast] Error 2
+
+
+

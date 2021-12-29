@@ -1,0 +1,4 @@
+/pvfsmnt/118010224/hw4/CUDA/build/CMakeFiles/rebuild_cache.dir
+/pvfsmnt/118010224/hw4/CUDA/build/CMakeFiles/edit_cache.dir
+/pvfsmnt/118010224/hw4/CUDA/build/CMakeFiles/csc4005_imgui.dir
+/pvfsmnt/118010224/hw4/CUDA/build/CMakeFiles/core.dir

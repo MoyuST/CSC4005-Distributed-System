@@ -1,0 +1,1 @@
+/usr/local/bin/clang++ -O3 -DNDEBUG CMakeFiles/gtest_sort.dir/src/tests.cpp.o -o gtest_sort  -Wl,-rpath,/pvfsmnt/118010224/parallel_version/build /usr/local/lib/libmpi.so lib/libgtest.a libodd-even-sort.so -lpthread 

@@ -1,0 +1,4 @@
+/pvfsmnt/118010224/hw4/OpenMP/build/CMakeFiles/rebuild_cache.dir
+/pvfsmnt/118010224/hw4/OpenMP/build/CMakeFiles/edit_cache.dir
+/pvfsmnt/118010224/hw4/OpenMP/build/CMakeFiles/csc4005_imgui.dir
+/pvfsmnt/118010224/hw4/OpenMP/build/CMakeFiles/core.dir
